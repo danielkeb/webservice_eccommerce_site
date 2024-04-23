@@ -1,0 +1,11 @@
+soapapi\CategoryWebService.class
+soapapi\CartService.class
+soapapi\ConnectionService.class
+soapapi\PaymentService.class
+soapapi\OrderService.class
+com\mycompany\ecommercesite\resources\JavaEE8Resource.class
+soapapi\CategoriesService.class
+soapapi\DatabaseConnection.class
+soapapi\ProductService.class
+soapapi\AccountService.class
+com\mycompany\ecommercesite\JAXRSConfiguration.class

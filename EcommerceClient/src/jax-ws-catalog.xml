@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://it-lab-6pc-8:8080/EcommerceSite/CategoriesService?WSDL" uri="wsdl/it-lab-6pc-8_8080/EcommerceSite/CategoriesService.wsdl"/>
+    <system systemId="http://it-lab-6pc-8:8080/EcommerceSite/CategoriesService?xsd=1" uri="wsdl/it-lab-6pc-8_8080/EcommerceSite/CategoriesService.xsd_1.xsd"/>
+    <system systemId="http://it-lab-6pc-8:8080/EcommerceSite/AccountService?WSDL" uri="wsdl/it-lab-6pc-8_8080/EcommerceSite/AccountService.wsdl"/>
+    <system systemId="http://it-lab-6pc-8:8080/EcommerceSite/AccountService?xsd=1" uri="wsdl/it-lab-6pc-8_8080/EcommerceSite/AccountService.xsd_1.xsd"/>
+</catalog>

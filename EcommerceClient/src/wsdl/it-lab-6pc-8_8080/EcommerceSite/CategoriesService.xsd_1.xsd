@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.3 (RELEASE-2.4.3-ad3323c; 2019-01-21T17:46:06+0000) JAXWS-RI/2.3.2 JAXWS-API/2.3.2 JAXB-RI/2.3.2 JAXB-API/2.3.2 git-revision#unknown. --><xs:schema xmlns:tns="http://soapapi/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://soapapi/">
+
+<xs:element name="addCategory" type="tns:addCategory"/>
+
+<xs:element name="addCategoryResponse" type="tns:addCategoryResponse"/>
+
+<xs:element name="deleteCategory" type="tns:deleteCategory"/>
+
+<xs:element name="deleteCategoryResponse" type="tns:deleteCategoryResponse"/>
+
+<xs:element name="getAllCategories" type="tns:getAllCategories"/>
+
+<xs:element name="getAllCategoriesResponse" type="tns:getAllCategoriesResponse"/>
+
+<xs:element name="searchCategory" type="tns:searchCategory"/>
+
+<xs:element name="searchCategoryResponse" type="tns:searchCategoryResponse"/>
+
+<xs:element name="updateCategory" type="tns:updateCategory"/>
+
+<xs:element name="updateCategoryResponse" type="tns:updateCategoryResponse"/>
+
+<xs:complexType name="deleteCategory">
+<xs:sequence>
+<xs:element name="categoryName" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="deleteCategoryResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="searchCategory">
+<xs:sequence>
+<xs:element name="categoryName" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="searchCategoryResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getAllCategories">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getAllCategoriesResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addCategory">
+<xs:sequence>
+<xs:element name="categoryName" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addCategoryResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateCategory">
+<xs:sequence>
+<xs:element name="oldCategoryName" type="xs:string" minOccurs="0"/>
+<xs:element name="newCategoryName" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateCategoryResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
